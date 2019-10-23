@@ -6,7 +6,6 @@
 (define sunny #true)
 (define friday #false)
 
-
 (define (mallday sunny friday)
     (or
     (and sunny false)
