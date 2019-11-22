@@ -1,3 +1,4 @@
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname ex32) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
 (require 2htdp/batch-io)
 
 (define (main in-fst in-lst in-signature out)
@@ -25,7 +26,7 @@
 
 (define (closing in-signature)
   (string-append
-   "Sincerely,"
+   "Gracias por todo,"
    "\n\n"
   in-signature
    "\n"))
