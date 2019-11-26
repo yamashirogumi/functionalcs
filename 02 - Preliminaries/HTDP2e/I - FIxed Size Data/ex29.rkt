@@ -1,3 +1,6 @@
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname ex32) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+
+
 ;Exercise 29. After studying the costs of a show, the owner discovered several ways of lowering the cost.
 ;As a result of these improvements, there is no longer a fixed cost; a variable cost of $1.50 per attendee remains.
 
